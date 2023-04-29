@@ -1,0 +1,19 @@
+span.caption-text {
+    font-size: larger;
+    /* color:white; */
+}
+p {
+    font-size: initial;
+}
+span.pre {
+    font-size: initial;
+}
+.caption{
+    /* padding: 8px 0px !important; */
+    text-transform: none !important;
+    /* font-size: large !important; */
+}
+h1, h2 {
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
