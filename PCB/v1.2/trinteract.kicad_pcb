@@ -58,7 +58,7 @@
       (usegerberextensions true)
       (usegerberattributes false)
       (usegerberadvancedattributes true)
-      (creategerberjobfile true)
+      (creategerberjobfile false)
       (svguseinch false)
       (svgprecision 6)
       (excludeedgelayer true)
@@ -83,7 +83,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "AxiTrackFinal")
+      (outputdirectory "Manufacturing Files/Gerbers/")
     )
   )
 
