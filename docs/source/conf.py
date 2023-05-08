@@ -30,9 +30,9 @@ exclude_patterns = []
 html_css_files = [
     "css/custom.css",
 ]
-html_theme = 'furo'
-# html_theme = 'sphinx_book_theme'
-html_logo = "logo4.png"
+# html_theme = 'furo'
+html_theme = 'sphinx_book_theme'
+html_logo = "logo.png"
 html_theme_options = {
     "sidebar_hide_name": True,
     # "announcement": "<em>Important</em> announcement!",
