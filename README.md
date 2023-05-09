@@ -9,7 +9,7 @@ This repository contains all the files and documentation for Trinteract, An open
 File structure:
 +  `Software` contains the arduino code and necesserry drivers 
 +  `PCB` contains the KiCAD PCB files and gerber files for manufacturing
-+  `docs` contains the source code for the docs build with Sphinx
++  `docs` contains the source code for the documentation website build with [Sphinx](https://www.sphinx-doc.org/en/master/index.html)
 +  `CAD` contains all fusion360 CAD files and print ready .stl files  
 
 ![](media/attached.jpg)
