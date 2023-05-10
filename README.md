@@ -12,6 +12,7 @@ File structure:
 +  `docs` contains the source code for the documentation website build with [Sphinx](https://www.sphinx-doc.org/en/master/index.html)
 +  `CAD` contains all fusion360 CAD files and print ready .stl files  
 
+
 ![](media/attached.jpg)
 
 Before Assembly            |  Assembled

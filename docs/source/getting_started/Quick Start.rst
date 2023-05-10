@@ -29,6 +29,7 @@ To get started with **trinteract**, connect an **3.3v** arduino pro micro to the
 ..   - Connect the board to your computer using the micro usb cable.
 ..   - Launch Blender and go into fly mode from the ``View ‣ Navigation`` menu. 
 ..     Or using the ``Shift`` + ``accent grave`` shortcut. 
+
 On Windows, Your computer will recognize trinteract as a game controller. To check if it's recognized go to:
 ``Control Panel`` → ``Devices and Printers`` → ``Set up USB game controllers`` and click ``Properties``
 

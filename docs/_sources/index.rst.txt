@@ -1,15 +1,3 @@
-.. zxyKit documentation master file, created by
-   sphinx-quickstart on Thu Apr 20 13:37:44 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to zxyKit's documentation!
-===================================
-test
-
-.. note::
-
-   This project is under active developmenttttttgggggg
 
 Contents
 --------
@@ -22,19 +10,17 @@ Contents
    getting_started/Configuration
    getting_started/Examples
 
-.. toctree::
-   :maxdepth: 2
-   :caption: 🎨 Customization
-
-   customization/Pinout
 
 .. toctree::
    :maxdepth: 2
    :caption: 🛠️ Build Your Own
 
    build_your_own/overview
+   build_your_own/Bill of materials
+   build_your_own/Fabrication
+   build_your_own/Soldering
    build_your_own/3D Printing
-
+   build_your_own/Testing
 .. toctree::
    :maxdepth: 2
    :caption: 📖 Development

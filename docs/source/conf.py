@@ -21,7 +21,7 @@ autoclass_content = 'both'
 templates_path = ['_templates']
 html_static_path = ['_static']
 exclude_patterns = []
-
+pygments_style = 'default'
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -30,28 +30,31 @@ exclude_patterns = []
 html_css_files = [
     "css/custom.css",
 ]
-# html_theme = 'furo'
-html_theme = 'sphinx_book_theme'
+html_theme = 'furo'
+# html_theme = 'sphinx_book_theme'
 # html_theme = 'pydata_sphinx_theme'
 html_logo = "logo.png"
 html_context ={
     "default_mode": "light"
 }
 html_theme_options = {
-    "repository_url": "https://github.com/gocivici/trinteract",
-    "path_to_docs": "docs/source",
-    "repository_branch": "master",
-    "use_repository_button": True,
-    "use_issues_button": True,
-    "use_edit_page_button": True,
-    "navbar_end": ["navbar-icon-links"],
-    "use_fullscreen_button": False,
+    "source_repository": "https://github.com/gocivici/trinteract",
+    "source_branch": "master",
+    "source_directory": "docs/source",
+    "top_of_page_button": "edit",
+    # "repository_url": "https://github.com/gocivici/trinteract",
+    # "path_to_docs": "docs/source",
+    # "repository_branch": "master",
+    # "use_repository_button": True,
+    # "use_issues_button": True,
+    # "use_edit_page_button": True,
+    # "use_fullscreen_button": False,
     # "use_switch_button": False,
-    #"sidebar_hide_name": True,
+    "sidebar_hide_name": True,
     # "announcement": "<em>Important</em> announcement!",
     # 'collapse_navigation': False,
 }
-# html_additional_pages = {
-#     "index": "newIndex.html"
-# }
+html_additional_pages = {
+    "index": "newIndex.html"
+}
 # html_title = " " 

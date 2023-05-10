@@ -43,6 +43,9 @@ int y = map((calX-Tlv493dMagnetic3DSensor.getX()),32,-32,-64,64);
 int x = map((calY-Tlv493dMagnetic3DSensor.getY()),32,-32,-64,64);
 int z = map((calZ-Tlv493dMagnetic3DSensor.getZ()),-30,30,-64,64);
 
+//    Serial.print(Tlv493dMagnetic3DSensor.getX());
+//    Serial.print(Tlv493dMagnetic3DSensor.getY());
+//    Serial.println(Tlv493dMagnetic3DSensor.getZ());
 
   Joystick.setXAxis(x);
   Joystick.setYAxis(y);
@@ -66,7 +69,7 @@ void calibrate(){
     calX = Tlv493dMagnetic3DSensor.getX();
     calY = Tlv493dMagnetic3DSensor.getY();
     calZ = Tlv493dMagnetic3DSensor.getZ();
-    Serial.print(calX);
-    Serial.print(calY);
-    Serial.println(calZ);
+//    Serial.print(calX);
+//    Serial.print(calY);
+//    Serial.println(calZ);
   }

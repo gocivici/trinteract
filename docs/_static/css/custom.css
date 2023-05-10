@@ -1,0 +1,61 @@
+span.caption-text {
+    font-size: larger;
+    /* color:white; */
+}
+p {
+    font-size: initial;
+}
+span.pre {
+    font-size: initial;
+}
+.caption{
+    /* padding: 8px 0px !important; */
+    text-transform: none !important;
+    /* font-size: large !important; */
+}
+h1, h2 {
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.theme-toggle-container{
+    display: none;
+}
+
+body{
+    --color-problematic: #b30000 !important;
+    --color-foreground-primary: #000 !important;
+    --color-foreground-secondary: #5a5c63 !important;
+    --color-foreground-muted: #646776 !important;
+    --color-foreground-border: #878787 !important;
+    --color-background-primary: #fff !important;
+    --color-background-secondary: #f8f9fb !important;
+    --color-background-hover: #efeff4 !important;
+    --color-background-hover--transparent: #efeff400 !important; 
+    --color-background-border: #eeebee !important;
+    --color-background-item: #ccc !important;
+    --color-announcement-background: #000000dd !important;
+    --color-announcement-text: #eeebee !important;
+    --color-brand-primary: #2962ff !important;
+    --color-brand-content: #2a5adf !important;
+    --color-api-background: var(--color-background-hover--transparent) !important;
+    --color-api-background-hover: var(--color-background-hover) !important;
+    --color-api-overall: var(--color-foreground-secondary) !important;
+    --color-api-name: var(--color-problematic) !important;
+    --color-api-pre-name: var(--color-problematic) !important;
+    --color-api-paren: var(--color-foreground-secondary) !important;
+    --color-api-keyword: var(--color-foreground-primary) !important;
+    --color-highlight-on-target: #ffc !important;
+    --color-inline-code-background: var(--color-background-secondary) !important;
+    --color-highlighted-background: #def !important;
+    --color-highlighted-text: var(--color-foreground-primary) !important;
+    --color-guilabel-background: #ddeeff80 !important;
+    --color-guilabel-border: #bedaf580 !important;
+    --color-guilabel-text: var(--color-foreground-primary) !important;
+    --color-admonition-background: transparent !important;
+    --color-table-header-background: var(--color-background-secondary) !important;
+    --color-table-border: var(--color-background-border) !important;
+    --color-card-border: var(--color-background-secondary) !important;
+    --color-card-background: transparent !important;
+    --color-card-marginals-background: var(--color-background-secondary) !important;
+}
