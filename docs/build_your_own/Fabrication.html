@@ -3,7 +3,7 @@
   <head><meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
-<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Soldering" href="Soldering.html" /><link rel="prev" title="Bill of materials(BOM)" href="Bill%20of%20materials.html" />
+<link rel="index" title="Index" href="../genindex.html" /><link rel="search" title="Search" href="../search.html" /><link rel="next" title="Soldering" href="Soldering.html" /><link rel="prev" title="Overview" href="overview.html" />
 
     <!-- Generated with Sphinx 6.1.3 and Furo 2023.03.27 -->
         <title>PCB Fabrication - trinteract v1.2 documentation</title>
@@ -136,7 +136,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -168,11 +168,10 @@
 <p class="caption" role="heading"><span class="caption-text">🛠️ Build Your Own</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Bill%20of%20materials.html">Bill of materials(BOM)</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">PCB Fabrication</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Soldering.html">Soldering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3D%20Printing.html">3D Printing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Testing.html">Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Testing.html">Assembly and Testing</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">📖 Development</span></p>
 <ul>
@@ -215,7 +214,7 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
@@ -223,6 +222,13 @@
         <article role="main">
           <section id="pcb-fabrication">
 <h1>PCB Fabrication<a class="headerlink" href="#pcb-fabrication" title="Permalink to this heading">#</a></h1>
+<section id="schematic-and-pcb">
+<h2>Schematic and PCB<a class="headerlink" href="#schematic-and-pcb" title="Permalink to this heading">#</a></h2>
+<img alt="../_images/pcb.png" src="../_images/pcb.png" />
+<p>The latest PCB files can downloaded from <a class="reference external" href="https://github.com/gocivici/trinteract/archive/refs/heads/master.zip">this link</a></p>
+<p>There are two subfolders under the PCB folder. One contains the KiCAD files that can be edited and customized. The other folder titled “Gerbers” contains the manufacture ready files
+that can be directly sent to a PCB manufacturer like JLCPCB.</p>
+</section>
 </section>
 
         </article>
@@ -239,14 +245,14 @@
               </div>
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
             </a>
-          <a class="prev-page" href="Bill%20of%20materials.html">
+          <a class="prev-page" href="overview.html">
               <svg class="furo-related-icon"><use href="#svg-arrow-right"></use></svg>
               <div class="page-info">
                 <div class="context">
                   <span>Previous</span>
                 </div>
                 
-                <div class="title">Bill of materials(BOM)</div>
+                <div class="title">Overview</div>
                 
               </div>
             </a>
@@ -268,8 +274,27 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">PCB Fabrication</a><ul>
+<li><a class="reference internal" href="#schematic-and-pcb">Schematic and PCB</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

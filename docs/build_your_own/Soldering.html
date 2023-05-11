@@ -136,7 +136,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <div class="visually-hidden">Toggle table of contents sidebar</div>
         <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
       </label>
@@ -168,11 +168,10 @@
 <p class="caption" role="heading"><span class="caption-text">🛠️ Build Your Own</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Bill%20of%20materials.html">Bill of materials(BOM)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="Fabrication.html">PCB Fabrication</a></li>
 <li class="toctree-l1 current current-page"><a class="current reference internal" href="#">Soldering</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3D%20Printing.html">3D Printing</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Testing.html">Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Testing.html">Assembly and Testing</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">📖 Development</span></p>
 <ul>
@@ -215,7 +214,7 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <div class="visually-hidden">Toggle table of contents sidebar</div>
             <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
           </label>
@@ -223,6 +222,22 @@
         <article role="main">
           <section id="soldering">
 <h1>Soldering<a class="headerlink" href="#soldering" title="Permalink to this heading">#</a></h1>
+<section id="smd-components">
+<h2>SMD Components<a class="headerlink" href="#smd-components" title="Permalink to this heading">#</a></h2>
+<a class="reference internal image-reference" href="../_images/solder.jpg"><img alt="../_images/solder.jpg" src="../_images/solder.jpg" style="width: 45%;" /></a>
+<a class="reference internal image-reference" href="../_images/solder2.jpg"><img alt="../_images/solder2.jpg" src="../_images/solder2.jpg" style="width: 45%;" /></a>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The PCB in these pictures are from the previous version, I’ll update them once I receive the new batch. The only difference in the new version is the button placement. The newer version has the button on the back.</p>
+</div>
+<p>The components can be soldered on to the PCB by hand, but you could also use solder paste and a reflow oven to make the process easier. I followed this tutorial
+for the hand soldering:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4zXP0TtORWo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></section>
+<section id="through-hole-components">
+<h2>Through-Hole Components<a class="headerlink" href="#through-hole-components" title="Permalink to this heading">#</a></h2>
+<p>The only Through-Hole components in this build are te header pins. You can also solder additional expansion pins if you plan to prototype with the board.</p>
+<a class="reference internal image-reference" href="../_images/hole.jpg"><img alt="../_images/hole.jpg" class="align-center" src="../_images/hole.jpg" style="width: 60%;" /></a>
+</section>
 </section>
 
         </article>
@@ -268,8 +283,28 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Soldering</a><ul>
+<li><a class="reference internal" href="#smd-components">SMD Components</a></li>
+<li><a class="reference internal" href="#through-hole-components">Through-Hole Components</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>

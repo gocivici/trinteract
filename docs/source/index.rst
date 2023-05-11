@@ -16,7 +16,6 @@ Contents
    :caption: 🛠️ Build Your Own
 
    build_your_own/overview
-   build_your_own/Bill of materials
    build_your_own/Fabrication
    build_your_own/Soldering
    build_your_own/3D Printing

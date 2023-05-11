@@ -21,7 +21,17 @@ h1, h2 {
 .theme-toggle-container{
     display: none;
 }
+.content-icon-container svg{
+    height: 2rem !important;
+    width: 2rem !important;
+}
 
+.content-icon-container{
+    border-style: solid;
+    border-style: dashed;
+    border-width: 1px;
+    border-radius: 5px;
+}
 body{
     --color-problematic: #b30000 !important;
     --color-foreground-primary: #000 !important;
