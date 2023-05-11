@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'trinteract'
-copyright = '2023, Görkem'
+copyright = 'CC BY-SA 4.0, Görkem'
 author = 'Görkem'
 release = 'v1.2'
 
