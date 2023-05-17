@@ -15,6 +15,8 @@ File structure:
 
 ![](media/attached.jpg)
 
+![](media/trinteract.gif)
+
 Before Assembly            |  Assembled
 :-------------------------:|:-------------------------:
 ![](media/notassembled.jpg)  |  ![](media/assembled.jpg)
