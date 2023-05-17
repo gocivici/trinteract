@@ -1,5 +1,5 @@
-hangelog
-========
+Changelog
+=========
 
 Installation
 ------------
