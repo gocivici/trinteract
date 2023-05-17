@@ -2,7 +2,7 @@ Overview
 ========
 
 
-Here are the parts that are required to biuld trinteract. You can also prototype it first before fabricating a pcb following the wiring diagram below.
+Here are the parts that are required to build trinteract:
 
 Parts
 -----

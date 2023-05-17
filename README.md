@@ -4,10 +4,10 @@
 [![License: MIT](https://img.shields.io/badge/Software%20License-MIT-yellow)](https://opensource.org/licenses/MIT)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/Documentation%20License-CC_BY--SA_4.0-lightgrey)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-This repository contains all the files and documentation for Trinteract, An open-source Arduino-compatible 3DOF Human Interface Device (HID). In other words a joystick that's capable of moving in all 3 Dimensions.  [Visit the docs](https://gocivici.github.io/trinteract/) for more detailed information.
+This repository contains all the files and documentation for Trinteract, An open-source Arduino-compatible 3DOF Human Interface Device (HID). In other words a joystick that's capable of moving in all 3 Dimensions. Trinteract uses a 3D magnetometer and a Neodymium magnet to detect motion in 3D space.  [Visit the docs](https://gocivici.github.io/trinteract/) for more detailed information.
 
 File structure:
-+  `Software` contains the arduino code and necesserry drivers 
++  `Software` contains the arduino code and necessary drivers 
 +  `PCB` contains the KiCAD PCB files and gerber files for manufacturing
 +  `docs` contains the source code for the documentation website build with [Sphinx](https://www.sphinx-doc.org/en/master/index.html)
 +  `CAD` contains all fusion360 CAD files and print ready .stl files  

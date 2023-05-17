@@ -1,7 +1,7 @@
 Interactive Tutorial
 ====================
 This interactive guide will guide you throug the capabilities of the sensor. But first you have to use a plugin to let figma communicate with trinteract.
-download the zxyKit driver from here, unzip the folder and on Figma goto Plugins → Development → trinteract Driver.
+download the zxyKit driver from the repository, unzip the folder and on Figma goto Plugins → Development → trinteract Driver.
 
 .. raw:: html
 
