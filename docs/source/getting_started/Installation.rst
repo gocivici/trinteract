@@ -1,7 +1,10 @@
 Interactive Tutorial
 ====================
-This interactive guide will guide you throug the capabilities of the sensor. But first you have to use a plugin to let figma communicate with trinteract.
-download the zxyKit driver from the repository, unzip the folder and on Figma goto Plugins → Development → trinteract Driver.
+This interactive guide will guide you through the capabilities of the sensor. But first you have to use a plugin to let figma communicate with trinteract.
+
+Launch Figma and go to ``Plugins`` and search for "3DConnexion SpaceMouse Driver" by Chuanqi Sun
+
+Attach Trinteract to your computer and you are ready to navigate Figma! 
 
 .. raw:: html
 

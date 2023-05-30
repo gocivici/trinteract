@@ -1,11 +1,15 @@
 Overview
 ========
 
+Trinteract is basically a compact breakout board for the TLV493 Magnetometer. You can use off-the-shelf components to prototype it first before you 
+order a PCB. Here's a wiring guide for a simple prototype that features the magnetic sensor, an Arduino pro micro, a LED and a tactile button: 
 
-Here are the parts that are required to build trinteract:
+.. image:: wiring.png
 
-Parts
------
+If you decide to manufacture the PCB you can follow `this interactive BOM guide <../ibom.html>`_ to keep track of the parts: 
+
+Parts for PCB
+-------------
 
 * :doc:`Trinteract pcb </build_your_own/Fabrication>` 
 * `Infenion TLV493DA Low Power 3D Magnetic Sensor <https://eu.mouser.com/ProductDetail/Infineon-Technologies/TLV493DA1B6HTSA2?qs=0DP5yvOrqYnbdRXsuslLCg%3D%3D&countryCode=DE&currencyCode=EUR>`_

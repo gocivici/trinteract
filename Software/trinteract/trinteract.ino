@@ -21,9 +21,9 @@ void setup() {
   Tlv493dMagnetic3DSensor.disableTemp();
   
 // set joystick axis range
-  Joystick.setXAxisRange(-64, 64);
-  Joystick.setYAxisRange(-64, 64);
-  Joystick.setZAxisRange(-64, 64);
+  Joystick.setXAxisRange(-512, 512);
+  Joystick.setYAxisRange(-512, 512);
+  Joystick.setZAxisRange(-512, 512);
 
 }
 
@@ -39,9 +39,9 @@ void loop() {
     }
 
 // map values from the sensor to joystick axis range
-int y = map((calX-Tlv493dMagnetic3DSensor.getX()),32,-32,-64,64);
-int x = map((calY-Tlv493dMagnetic3DSensor.getY()),32,-32,-64,64);
-int z = map((calZ-Tlv493dMagnetic3DSensor.getZ()),-30,30,-64,64);
+int y = map((calX-Tlv493dMagnetic3DSensor.getX()),32,-32,-512,512);
+int x = map((calY-Tlv493dMagnetic3DSensor.getY()),32,-32,-512,512);
+int z = map((calZ-Tlv493dMagnetic3DSensor.getZ()),-30,30,-512,512);
 
 //    Serial.print(Tlv493dMagnetic3DSensor.getX());
 //    Serial.print(Tlv493dMagnetic3DSensor.getY());

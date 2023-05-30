@@ -15,7 +15,8 @@ release = 'v1.2'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx_copybutton'
+    'sphinx_copybutton',
+    'sphinx_changelog'
 ]
 autoclass_content = 'both'
 templates_path = ['_templates']
@@ -42,6 +43,7 @@ html_theme_options = {
     "source_branch": "master",
     "source_directory": "docs/source",
     "top_of_page_button": "edit",
+    "announcement": "Trinteract has been certified as open-source hardware by OSHWA! <em><a href='https://certification.oshwa.org/ee000001.html'>Click here for more info</a></em>",
     # "repository_url": "https://github.com/gocivici/trinteract",
     # "path_to_docs": "docs/source",
     # "repository_branch": "master",
