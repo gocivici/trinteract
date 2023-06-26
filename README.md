@@ -8,7 +8,7 @@
 
 
 
-This repository contains all the files and documentation for Trinteract, An open-source Arduino-compatible 3DOF Human Interface Device (HID). In other words a joystick that's capable of moving in all 3 Dimensions. Trinteract uses a 3D magnetometer and a Neodymium magnet to detect motion in 3D space.  [Visit the docs](https://gocivici.github.io/trinteract/) for more detailed information.
+This repository contains all the files and documentation for Trinteract, An open-source Arduino-compatible 3DOF Human Interface Device (HID). In other words a joystick that's capable of moving in all 3 Dimensions. Trinteract uses a 3D magnetometer and a Neodymium magnet to detect motion in 3D space.  [Visit the docs](https://www.instructables.com/member/G%C3%B6rkem/) (DIY instructions coming soon)
 
 [Watch the Demo here](https://youtu.be/7Xo4b8GIRDg)
 
